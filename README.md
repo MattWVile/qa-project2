@@ -7,12 +7,12 @@ More specifically, these 4 services should comprise of 1 front-end wrapper servi
 
 The following constraints were also set:
 
-Kanban Board: Asana or an equivalent Kanban Board
-Version Control: Git - using the feature-branch model
-CI Server: Jenkins
-Configuration Management: Ansible
-Cloud server: GCP virtual machines
-Containerisation: Docker
-Orchestration Tool: Docker Swarm
-Reverse Proxy: NGINX
-Database Layer: MySQL
+Kanban Board: Asana or an equivalent Kanban Board <br>
+Version Control: Git - using the feature-branch model <br>
+CI Server: Jenkins <br>
+Configuration Management: Ansible<br>
+Cloud server: GCP virtual machines<br>
+Containerisation: Docker<br>
+Orchestration Tool: Docker Swarm<br>
+Reverse Proxy: NGINX<br>
+Database Layer: MySQL<br>
