@@ -16,3 +16,13 @@ Containerisation: Docker<br>
 Orchestration Tool: Docker Swarm<br>
 Reverse Proxy: NGINX<br>
 Database Layer: MySQL<br>
+
+Proposal
+
+To produce the MVP within the time-frame provided i realised that the application i was building would be less important than the implementation of my CI/CD, so my application is quite simple
+
+Meal Maker
+<br>Service 1: Displays the results of the following 3 services to the user
+<br>Service 2: returns a random main dish
+<br>Service 3: returns a random side dish
+<br>Service 4: returns a total price based off service 2 and 3
