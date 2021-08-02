@@ -26,3 +26,8 @@ Meal Maker
 <br>Service 2: returns a random main dish
 <br>Service 3: returns a random side dish
 <br>Service 4: returns a total price based off service 2 and 3
+
+
+ Project tracking
+ 
+ I used trello to track my progress of development throughout the development process. The image below is a screenshot of my board and the link to my board is [here](https://trello.com/b/KcwQIRcu/qa-project-2)
