@@ -2,7 +2,6 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
 from os import getenv
-from . import routes
 import requests
 
 app = Flask(__name__)
