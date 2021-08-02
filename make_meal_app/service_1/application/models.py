@@ -1,4 +1,4 @@
-from make_meal_app import db
+from . import db
 
 class Make_meal(db.Model):
     id = db.Column(db.Integer, primary_key=True)

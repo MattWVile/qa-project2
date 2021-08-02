@@ -1,5 +1,9 @@
-from . import app, db
+from . import db
 from .models import Make_meal
+from flask import Flask
+from flask.templating import render_template
+
+app = Flask(__name__)
 
 @app.route('/')
 def home():
@@ -10,3 +14,4 @@ def home():
     meal = Make_meal(main_dish=main_dish, side_dish=side_dish, price=total)
     db.session.add(meal)
     db.commit()
+    return render_template("home.html")
