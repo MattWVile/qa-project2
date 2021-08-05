@@ -5,4 +5,3 @@ requests
 SQLAlchemy
 pymysql
 docker 
-cryptography

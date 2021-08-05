@@ -1,0 +1,12 @@
+<head>
+
+</head>
+<body>
+    <h1 style='color:rgb(42, 124, 39);'>Meal maker!</h1>
+    {% for meal in meals %}
+        {{ meal.main_dish }}
+        {{ meal.side_dish }}
+        {{ meal.price }}
+        </br>
+    {% endfor %}
+</body>

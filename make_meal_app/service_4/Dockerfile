@@ -1,6 +1,6 @@
-FROM python:3.6.9
+FROM python:3.9.6
 
-WORKDIR /flask-app
+WORKDIR /service_4
 
 COPY . .
 
