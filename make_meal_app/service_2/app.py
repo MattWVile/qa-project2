@@ -10,4 +10,4 @@ def get_main_dish():
     return random.choice(main_dish)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0') 

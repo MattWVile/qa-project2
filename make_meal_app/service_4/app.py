@@ -8,9 +8,9 @@ prices = {
         'Pie': 3.99,
         'Pizza': 4.99
     },
-    'side_dish':{
-        'Chips': 1.05
-        'Garlic bread': 1.50
+    'side_dish': {
+        'Chips': 1.05,
+        'Garlic bread': 1.50,
         'Mashed potato': 1.99
     }
 }
@@ -24,4 +24,5 @@ def post_meal():
     return jsonify(price)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0') 
+    app.run(debug=True, host='0.0.0.0') 
+    
