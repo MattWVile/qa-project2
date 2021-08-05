@@ -19,7 +19,7 @@ Database Layer: MySQL<br>
 
 Proposal
 
-To produce the MVP within the time-frame provided i realised that the application i was building would be less important than the implementation of my CI/CD, so my application is quite simple
+To produce the MVP within the time-frame provided i realised that the application i was building would be less important than the implementation of my CI/CD, so my application is quite simple.
 
 Meal Maker
 <br>Service 1: Displays the results of the following 3 services to the user
@@ -27,7 +27,12 @@ Meal Maker
 <br>Service 3: returns a random side dish
 <br>Service 4: returns a total price based off service 2 and 3
 
+Here is my ED for my application
+<br>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/RHpgkH0/Project-2-ed.jpg" alt="Project-2-ed" border="0"></a>
 
- Project tracking
+
+Project tracking
  
- I used trello to track my progress of development throughout the development process. The image below is a screenshot of my board and the link to my board is [here](https://trello.com/b/KcwQIRcu/qa-project-2)
+I used trello to track my progress of development throughout the development process. The image below is a screenshot of my board and the link to my board is [here](https://trello.com/b/KcwQIRcu/qa-project-2)
+
