@@ -4,6 +4,7 @@
 - name: Install dependencies
   apt:
     name:
+      - python3-docker
       - apt-transport-https 
       - ca-certificates 
       - curl 
