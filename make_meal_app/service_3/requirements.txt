@@ -5,3 +5,4 @@ requests
 SQLAlchemy
 pymysql
 docker 
+flask_testing

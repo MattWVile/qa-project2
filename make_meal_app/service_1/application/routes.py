@@ -14,4 +14,4 @@ def home():
     db.session.add(meal)
     db.session.commit()
     meals = Make_meal.query.all()
-    return render_template("home.html", meals=meals, meal=meal)
+    return render_template("home.html", meals=meals)
