@@ -2,7 +2,3 @@
 include=
     service_1/application/*.py
     service_[234]/app.py
-
-[report]
-exclude_lines = 
-    if __name__ == '__main__'

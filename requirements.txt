@@ -5,3 +5,6 @@ requests
 SQLAlchemy
 pymysql
 docker 
+flask_testing
+pytest
+pytest-cov
