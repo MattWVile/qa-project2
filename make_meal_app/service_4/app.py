@@ -15,7 +15,7 @@ prices = {
     }
 }
 
-@app.route('/post/meal', methods=['POST'])
+@app.route('/post_meal', methods=['POST'])
 def post_meal():
     main = request.json['main_dish']
     side = request.json['side_dish']

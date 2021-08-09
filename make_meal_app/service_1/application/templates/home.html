@@ -3,9 +3,10 @@
 </head>
 <body>
     <h1 style='color:rgb(42, 124, 39);'>Meal maker!</h1>
-    <p>your new meal</p>
+    <p>your new meal!</p>
     {{ meals[-1].main_dish }}
-    & {{ meals[-1].side_dish }}
+    &
+    {{ meals[-1].side_dish }}
     £{{ meals[-1].price }}
     <br>
     <p>your old meals</p>
