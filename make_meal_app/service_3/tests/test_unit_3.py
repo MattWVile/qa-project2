@@ -10,7 +10,6 @@ class TestBase(TestCase):
 class TestResponse(TestBase):
 
     def test_get_side(self):
-
         for num in range(20):
             response = self.client.get(url_for('get_side_dish'))
             self.assert200(response)
