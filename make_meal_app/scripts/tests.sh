@@ -9,4 +9,4 @@ python3 -m venv venv
 source venv/bin/activate
 for num in {1..4}; do pip3 install -r /home/QA/qa-project2/make_meal_app/service_${num}/requirements.txt > /dev/null; done
 
-python3 -m pytest --cov --cov -config=.coveragec
+python3 -m pytest --cov --cov-config=.coveragec

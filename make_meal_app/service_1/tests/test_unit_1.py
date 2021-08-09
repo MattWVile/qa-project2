@@ -1,7 +1,8 @@
 from flask import url_for
 from flask_testing import TestCase
 from requests_mock import mock
-from application import app, db
+from service_1.application import app, db
+
 
 class TestBase(TestCase):
     def create_app(self):
@@ -23,9 +24,11 @@ class TestResponse(TestBase):
         with mock() as mocker:
             mocker.get('http://service-2:5000/get/main_dish', text='Pie')
             mocker.get('http://service-3:5000/get/side_dish', text='Chips')
-            mocker.get('http://service-4:5000/post_meal', json=4)
+            mocker.post('http://service-4:5000/post/meal', json=4)
 
             result = self.client.get(url_for('home'))
 
-        self.assert500(result)
-        self.assertIn('Pie Chips £4', result.data.decode())
+        self.assert200(result)
+        self.assertIn('Pie', result.data.decode())
+        self.assertIn('Chips', result.data.decode())
+        self.assertIn('£4', result.data.decode())
