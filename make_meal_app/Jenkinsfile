@@ -7,12 +7,13 @@ pipeline{
     stages{
         stage('Setup'){
             steps{
-                sh "ls"
+                sh "cd make_meal_app"
                 sh "bash scripts/setup.sh"
             }
         }
         stage('Test app'){
             steps{
+                sh "ls"
                 sh "bash scripts/tests.sh"
             }
         }
