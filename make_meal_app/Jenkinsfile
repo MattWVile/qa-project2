@@ -8,6 +8,7 @@ pipeline{
         stage('Setup'){
             steps{
                 sh "cd make_meal_app"
+                sh "ls"
                 sh "bash scripts/setup.sh"
             }
         }
