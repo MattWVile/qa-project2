@@ -10,6 +10,8 @@ if [ -z "$(docker --version 2> /dev/null)" ]; then
     sudo usermod -aG docker $USER
 fi
 
+sudo apt-get install docker-compose
+
 if [ -z "$(docker --version 2> /dev/null)" ]; then
     version=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | jq -r '.tag_name')
     sudo curl -L "https://github.com/docker/compose/releases/download${version}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
