@@ -42,3 +42,14 @@ Here is the updated risk assessment for my project.
 <a href="https://ibb.co/Vv0Yzkk"><img src="https://i.ibb.co/gDbZfcc/Screenshot-16.png" alt="Screenshot-16" border="0"></a>
 <a href="https://ibb.co/T4hz5fh"><img src="https://i.ibb.co/2vKXB9K/Screenshot-18.png" alt="Screenshot-18" border="0"></a>
 
+Continuous Intergration pipeline
+
+Here is a diagram for the CI/CD
+
+<a href="https://ibb.co/z2Vr5M0"><img src="https://i.ibb.co/hdFyM6t/Screenshot-22.png" alt="Screenshot-22" border="0"></a>
+
+Services diagram
+
+Here is a diagram illustrating the interaction between the 4 services in my app.
+
+<a href="https://ibb.co/MNjK98K"><img src="https://i.ibb.co/LpqBvQB/Screenshot-24.png" alt="Screenshot-24" border="0"></a>
