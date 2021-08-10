@@ -5,6 +5,15 @@ set -e
 sudo apt-get update
 sudo apt-get install curl jq -y
 
+if [ -z "$(ansible --version 2> /dev/null)" ]; then
+    mkdir -p ~/.local/bin
+    echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc
+    source ~/.bashrc
+    sudo apt install python3-pip -y
+    pip3 install --user ansible
+    ansible --version
+fi
+
 if [ -z "$(docker --version 2> /dev/null)" ]; then
     curl https://get.docker.com | sudo bash
     sudo usermod -aG docker $USER
