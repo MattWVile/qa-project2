@@ -31,8 +31,25 @@ Here is my ED for my application
 <br>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/RHpgkH0/Project-2-ed.jpg" alt="Project-2-ed" border="0"></a>
 
-
 Project tracking
  
 I used trello to track my progress of development throughout the development process. The image below is a screenshot of my board and the link to my board is [here](https://trello.com/b/KcwQIRcu/qa-project-2)
 
+Risk assesment
+
+Here is the updated risk assessment for my project.
+
+<a href="https://ibb.co/Vv0Yzkk"><img src="https://i.ibb.co/gDbZfcc/Screenshot-16.png" alt="Screenshot-16" border="0"></a>
+<a href="https://ibb.co/T4hz5fh"><img src="https://i.ibb.co/2vKXB9K/Screenshot-18.png" alt="Screenshot-18" border="0"></a>
+
+Continuous Intergration pipeline
+
+Here is a diagram for the CI/CD
+
+<a href="https://ibb.co/z2Vr5M0"><img src="https://i.ibb.co/hdFyM6t/Screenshot-22.png" alt="Screenshot-22" border="0"></a>
+
+Services diagram
+
+Here is a diagram illustrating the interaction between the 4 services in my app.
+
+<a href="https://ibb.co/MNjK98K"><img src="https://i.ibb.co/LpqBvQB/Screenshot-24.png" alt="Screenshot-24" border="0"></a>
