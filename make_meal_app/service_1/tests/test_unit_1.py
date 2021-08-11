@@ -29,6 +29,6 @@ class TestResponse(TestBase):
             result = self.client.get(url_for('home'))
 
         self.assert200(result)
-        self.assertIn('Pie', result.data.decode())
+        self.assertIn('pasta', result.data.decode())
         self.assertIn('Chips', result.data.decode())
         self.assertIn('£4', result.data.decode())
