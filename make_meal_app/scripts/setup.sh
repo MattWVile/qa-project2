@@ -20,4 +20,4 @@ if [ -z "$(docker-compose --version 2> /dev/null)" ]; then
 fi
 
 docker ps > /dev/null 2>&1 \
-    || {echo "Session must be restarted to run Docker commands" >&2 && exit 1; } 
+    || { echo "Session must be restarted to run Docker commands" >&2 && exit 1; } 
