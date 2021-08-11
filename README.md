@@ -53,3 +53,9 @@ Services diagram
 Here is a diagram illustrating the interaction between the 4 services in my app.
 
 <a href="https://ibb.co/MNjK98K"><img src="https://i.ibb.co/LpqBvQB/Screenshot-24.png" alt="Screenshot-24" border="0"></a>
+
+Unit testing
+
+I ran unit tests using a test script in jenkins and achieved 95% coverage over my app. These tests are run everytime I push to my dev branch on github as I set up a webhook and, as tests are the second stage in the pipeline, if the tests fail the app will not be deployed. Below is the output from jenkins everytime the tests are successful.
+
+<a href="https://ibb.co/Rj7jx3c"><img src="https://i.ibb.co/bb7bSsX/Screenshot-26.png" alt="Screenshot-26" border="0"></a>
