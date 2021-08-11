@@ -10,8 +10,7 @@ if [ -z "$(ansible --version 2> /dev/null)" ]; then
     echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc
     source ~/.bashrc
     sudo apt install python3-pip -y
-    pip3 install --user ansible
-    ansible --version
+    pip3 install --user ansible ansible
 fi
 
 if [ -z "$(docker --version 2> /dev/null)" ]; then
