@@ -44,8 +44,10 @@ Here is the updated risk assessment for my project.
 
 Continuous Intergration pipeline
 
-Here is a diagram for the CI/CD
+Here is a diagram for my proposed CI/CD as I was unsure of the benifits that adding jenkins to my pipeline.
+<a href="https://ibb.co/84LPKgC"><img src="https://i.ibb.co/5xgsMh0/Screenshot-30.png" alt="Screenshot-30" border="0"></a>
 
+And here is a diagram for my implemented CI/CD as I jenkins speeds up the pipeline process so was almost essential due to how efficient it is.
 <a href="https://ibb.co/z2Vr5M0"><img src="https://i.ibb.co/hdFyM6t/Screenshot-22.png" alt="Screenshot-22" border="0"></a>
 
 Services diagram
@@ -53,6 +55,12 @@ Services diagram
 Here is a diagram illustrating the interaction between the 4 services in my app.
 
 <a href="https://ibb.co/MNjK98K"><img src="https://i.ibb.co/LpqBvQB/Screenshot-24.png" alt="Screenshot-24" border="0"></a>
+
+Infrastructure diagram
+
+Here is a diagram illustrating the interaction and layout of the virtual machines using gcp and docker swarm.
+
+<a href="https://ibb.co/R77BxSn"><img src="https://i.ibb.co/6NN13Zh/Screenshot-28.png" alt="Screenshot-28" border="0"></a>
 
 Unit testing
 
