@@ -18,7 +18,7 @@ services:
     image: matt266/service-1
     build: ./service_1
     environment:
-      DATABASE_URI: 
+      DATABASE_URI: "mysql+pymysql://root:pass@meal-db:3306/data"
     restart: on-failure
 
   service-2:
