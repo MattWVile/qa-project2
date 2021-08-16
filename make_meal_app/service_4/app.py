@@ -4,14 +4,14 @@ app = Flask(__name__)
 
 prices = {
     'main_dish': {
-        'Pasty': 2,
-        'Pasta': 3,
-        'Pasata': 4
+        'Sausage': 2,
+        'Pie': 3,
+        'Burger': 4
     },
     'side_dish': {
-        'Chips': 1,
-        'Garlic bread': 2,
-        'Mashed potato': 3
+        'Jacket potato': 1,
+        'French fries': 2,
+        'Spicy rice': 3
     }
 }
 
