@@ -3,7 +3,7 @@ import random
 
 app = Flask(__name__)
 
-main_dish = ['Pasty', 'Pasta', 'Pasata']
+main_dish = ['Sausage', 'Pie', 'Burger']
 
 @app.route('/get/main_dish')
 def get_main_dish():
